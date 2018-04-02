@@ -52,3 +52,4 @@ exports.insertCampaign = (funcReq, funcRes) => {
     
       funcRes.status(500).send(JSON.stringify( err ));
   });
+};
