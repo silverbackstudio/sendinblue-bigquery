@@ -1,0 +1,11 @@
+{
+  "name": "sendinblue-bigquery",
+  "version": "1.0.0",
+  "description": "Send SendInBlue events to Google BigQuery",
+  "main": "index.js",
+  "author": "Brando Meniconi",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/bigquery": "^1.0.0"
+  }
+}
