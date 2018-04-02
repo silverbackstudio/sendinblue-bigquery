@@ -1,0 +1,1 @@
+id:INTEGER,event:STRING,email:STRING,date:STRING,subject:STRING,messageId:STRING,tag:STRING,from:STRING,ip:STRING,link:STRING,reason:STRING
