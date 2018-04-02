@@ -15,8 +15,9 @@ exports.insertTransactional = (funcReq, funcRes) => {
   delete eventData["message-id"]; 
   
   table_transactional.insert(eventData)
-  	.then(function(data) {
-		  console.log(data[0]);
+    .then(function(data) {
+	  console.log(data[0]);
+	  funcRes.status(200).send(JSON.stringify( data[0] ));
   	})
     .catch(function(err) {
     
@@ -37,8 +38,9 @@ exports.insertCampaign = (funcReq, funcRes) => {
   var eventData = funcReq.body;
   
   table_campaigns.insert(eventData)
-  	.then(function(data) {
-		  console.log(data[0]);
+    .then(function(data) {
+	  console.log(data[0]);
+	  funcRes.status(200).send(JSON.stringify( data[0] ));
   	})
     .catch(function(err) {
     
