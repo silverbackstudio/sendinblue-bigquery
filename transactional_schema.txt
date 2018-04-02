@@ -1,0 +1,12 @@
+id:INTEGER,
+email:STRING,
+event:STRING,
+date:STRING,
+ts:INTEGER,
+message_id:STRING,
+ts_event:INTEGER,
+subject:STRING,
+tag:STRING,
+sending_ip:STRING,
+ts_epoch:INTEGER,
+template_id:INTEGER
